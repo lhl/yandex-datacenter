@@ -99,5 +99,41 @@
     "status": "archived excerpt",
     "claims": ["summarizes facilities, 0.4% metric, political claims, and caveat that Cloudflare data does not establish causation"],
     "confidence": "medium-high"
+  },
+  {
+    "id": "raes-reddit-study",
+    "url": "https://github.com/silkier-muses/raes",
+    "title": "Reddit activity around three reported Yandex attacks",
+    "publisher": "silkier-muses / holy_nikes",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "reproducible exploratory analysis",
+    "status": "archived metadata and infographic; full archive linked",
+    "claims": ["1,221 subreddit series examined", "968 eligible", "90 nominal three-window decreases", "zero timing-stable decreases across tested starts and 10/12-hour windows"],
+    "confidence": "medium for arithmetic reproducibility; low for causal interpretation",
+    "notes": "Uses Syften hourly posts plus comments, not bot counts. Original archive SHA-256: bf93862bd93b17bc5fdea74e1dae84024b96e0dfa33010e057e678afbf8a5ed2."
+  },
+  {
+    "id": "irish-politics-x-event-study",
+    "url": "https://x.com/IrishPoliticsNL/status/2109568747195240802",
+    "title": "Reddit data show a massive decline in activity on some subs",
+    "publisher": "The Irish Politics Newsletter on X",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "secondary presentation of Reddit analysis",
+    "status": "archived image",
+    "claims": ["selected European communities show activity declines around Sasovo, Kaluga, and Vladimir", "r/irishpolitics shown at -80% around Kaluga"],
+    "confidence": "low-medium; full methods and denominator are not in the post",
+    "notes": "Image SHA-256: 72d143e6ab9a814e1569d0dc78e8d4e00a3d1dc27e06c67c9cb4e72d962bddb1."
+  },
+  {
+    "id": "theydidthemath-reddit-study",
+    "url": "https://www.reddit.com/r/theydidthemath/comments/1x3q43a/offsite_comparing_reddit_activity_around_three/",
+    "title": "Comparing Reddit activity around three reported Yandex attacks",
+    "publisher": "Reddit / r/theydidthemath",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "source discussion and critique",
+    "status": "user-supplied excerpt plus archived infographic",
+    "claims": ["discussion raises control-date, holiday, selection, carryover, interpretation of r, and bot-identification concerns"],
+    "confidence": "high for discussion content; not evidence of the underlying effect",
+    "notes": "Infographic SHA-256: f6ca405dc2c4f780b3a00d7dbf6fdece3e86f86c7e1892c5f8da10e4252f042c."
   }
 ]

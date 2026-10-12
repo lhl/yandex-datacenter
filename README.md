@@ -20,6 +20,8 @@ This repository deliberately separates **verified infrastructure events**, **mea
 - [`notes/assessment.md`](notes/assessment.md) — evidence assessment, hypotheses, and falsification criteria.
 - [`data/sources.json`](data/sources.json) — source ledger with provenance, dates, claims, and confidence.
 - [`sources/`](sources/) — dated excerpts from key pages, preserved for later comparison. These are excerpts, not immutable web archives.
+- [`sources/reddit-activity-event-study.md`](sources/reddit-activity-event-study.md) — review of the reproducible Reddit/Syften study and its limitations.
+- [`sources/images/`](sources/images/) — archived copies of the relevant X and Reddit infographics with hashes.
 - [`data/observations.csv`](data/observations.csv) — normalized observations and their evidentiary status.
 - [`scripts/check_sources.py`](scripts/check_sources.py) — small consistency check for the source ledger.
 

@@ -10,3 +10,7 @@ obs-008,2026-10-11,AfD query,weekend change,-19.3,percent,rohtext-afd-factcheck,
 obs-009,2026-10-11,CDU query,weekend change,-17.8,percent,rohtext-afd-factcheck,reported countercheck,Short 18-hour Saturday/Sunday comparison
 obs-010,2026-10-11,SPD query,weekend change,-36.8,percent,rohtext-afd-factcheck,reported countercheck,Short 18-hour Saturday/Sunday comparison
 obs-011,2026-10-11,Greens query,weekend change,-28.6,percent,rohtext-afd-factcheck,reported countercheck,Short 18-hour Saturday/Sunday comparison
+obs-012,2026-10-12,Reddit study,subreddit series examined,1221,count,raes-reddit-study,verified from packaged results,Selected non-random universe
+obs-013,2026-10-12,Reddit study,eligible series,968,count,raes-reddit-study,verified from packaged results,Passed volume and completeness rules
+obs-014,2026-10-12,Reddit study,nominal three-window decreases,90,count,raes-reddit-study,verified from packaged results,Negative adjusted r and percentage in all three nominal 12-hour windows
+obs-015,2026-10-12,Reddit study,timing-stable decreases,0,count,raes-reddit-study,verified from packaged results,No nominal match survived all tested start hours and both window lengths
