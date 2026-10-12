@@ -1,0 +1,12 @@
+observation_id,observed_at_utc,subject,metric,value,unit,source_id,evidence_status,notes
+obs-001,2026-10-07/08,Yandex Sasovo,facility status,seriously damaged and shut down,text,yandex-2026-10-09,reported first-party,Attack window spans night of 7–8 October
+obs-002,2026-10-09,Yandex Kaluga,facility status,partly out of service,text,yandex-2026-10-09,reported first-party,Yandex statement
+obs-003,2026-10-11,Yandex Vladimir,facility status,operations suspended,text,bbc-yandex-third-attack,reported secondary,Exact attack attribution requires corroboration
+obs-004,2026-10-08,Yandex AS13238,automated HTTP requests,57,percent of recent maximum,tomshardware-yandex-bot,reported secondary,Article's reading of Cloudflare chart; export not archived
+obs-005,2026-10-11,Yandex AS13238,automated HTTP requests,0.4,percent of recent two-week maximum,tomshardware-yandex-bot,reported secondary,Not equivalent to social-media influence activity
+obs-006,2026-10-12,Cloudflare bot classes,likely automated score range,1-29,score,cloudflare-bot-classes,verified methodology,Cloudflare definition
+obs-007,2026-10-12,YandexBot,bot category,search engine crawler,text,cloudflare-yandexbot,verified metadata,Legitimate crawler category
+obs-008,2026-10-11,AfD query,weekend change,-19.3,percent,rohtext-afd-factcheck,reported countercheck,Short 18-hour Saturday/Sunday comparison; not a bot census
+obs-009,2026-10-11,CDU query,weekend change,-17.8,percent,rohtext-afd-factcheck,reported countercheck,Short 18-hour Saturday/Sunday comparison
+obs-010,2026-10-11,SPD query,weekend change,-36.8,percent,rohtext-afd-factcheck,reported countercheck,Short 18-hour Saturday/Sunday comparison
+obs-011,2026-10-11,Greens query,weekend change,-28.6,percent,rohtext-afd-factcheck,reported countercheck,Short 18-hour Saturday/Sunday comparison

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "reddit-pourstea",
+    "url": "https://www.reddit.com/r/PoursTea/comments/1x3mttd/suddenly_theres_less_bot_traffic_on_numerous_sites/",
+    "title": "Suddenly there's less bot traffic on numerous sites",
+    "publisher": "Reddit / r/PoursTea",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "primary anecdotal source",
+    "status": "user-supplied excerpt; page extraction unavailable",
+    "claims": ["reports of perceived changes in political posts, subreddit activity, spam calls, and bot traffic"],
+    "confidence": "low for causal claims",
+    "notes": "The supplied post text is preserved in the research request, but individual anecdotes are not independent measurements."
+  },
+  {
+    "id": "yandex-2026-10-09",
+    "url": "https://yandex.com/company/news/2026-10-09",
+    "title": "What is happening to our data centers, the iron heart of Yandex",
+    "publisher": "Yandex",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "first-party statement",
+    "status": "archived excerpt",
+    "claims": ["Sasovo seriously damaged and shut down after 7–8 October attack", "Kaluga attacked 9 October and partly out of service", "service disruption and uncertain restoration"],
+    "confidence": "high for what Yandex reported; not independent attribution"
+  },
+  {
+    "id": "bbc-yandex-third-attack",
+    "url": "https://www.bbc.com/news/articles/cw0k0g57mk3zo",
+    "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
+    "publisher": "BBC",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "reported event",
+    "status": "archived excerpt",
+    "claims": ["Vladimir facility damaged and operations paused", "three Yandex facilities targeted that week", "some services unavailable"],
+    "confidence": "medium-high"
+  },
+  {
+    "id": "tomshardware-yandex-bot",
+    "url": "https://www.tomshardware.com/tech-industry/data-centers/russian-disinformation-bot-traffic-nearly-eliminated-overnight-after-ukraine-drone-strikes-cripple-multiple-of-russias-google-data-centers-ukraine-intensifies-bombing-of-yandex-data-centers-in-response-to-moscows-strikes-on-kyiv-data-centers",
+    "title": "Russia's Yandex bot traffic nearly eliminated overnight...",
+    "publisher": "Tom's Hardware",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "secondary report of Radar data",
+    "status": "archived excerpt",
+    "claims": ["Yandex network automated requests reportedly fell to 0.4% of two-week maximum", "initially around 57% on 8 October"],
+    "confidence": "medium for reported chart; low for interpretation as disinformation traffic",
+    "notes": "Article image is illustrative; forum comments correctly flag that Cloudflare bot traffic is not equivalent to political bots."
+  },
+  {
+    "id": "cloudflare-bot-classes",
+    "url": "https://developers.cloudflare.com/radar/concepts/bot-classes/",
+    "title": "Bot classes",
+    "publisher": "Cloudflare",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "methodology",
+    "status": "archived excerpt",
+    "claims": ["scores 1–29 are likely automated; 30–99 likely human"],
+    "confidence": "high"
+  },
+  {
+    "id": "cloudflare-yandexbot",
+    "url": "https://radar.cloudflare.com/bots/directory/yandex",
+    "title": "YandexBot Bot Information",
+    "publisher": "Cloudflare Radar",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "directory metadata",
+    "status": "archived excerpt",
+    "claims": ["YandexBot is a verified search-engine crawler operated by Yandex"],
+    "confidence": "high"
+  },
+  {
+    "id": "cybernews-yandex-bot-drop",
+    "url": "https://cybernews.com/news/yandex-data-centers-bot-traffic-drop/",
+    "title": "Yandex bot traffic drop isn't a Russian bot farm collapse",
+    "publisher": "Cybernews",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "analysis",
+    "status": "archived excerpt",
+    "claims": ["metric is automated requests from Yandex network", "Russia-wide bot volume was largely unchanged", "covert operations commonly use proxies, compromised devices, VPNs, or foreign cloud"],
+    "confidence": "medium; analysis cites live Radar and an expert account"
+  },
+  {
+    "id": "rohtext-afd-factcheck",
+    "url": "https://rohtext.de/news/afd-bots-offline-yandex-angriffen-was-virale",
+    "title": "AfD-Bots und Yandex: Virale Grafik ohne Belege",
+    "publisher": "Rohtext",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "fact check",
+    "status": "archived excerpt",
+    "claims": ["viral AfD chart lacks reproducible source and methodology", "short comparison did not show AfD-specific collapse", "other party terms also fell"],
+    "confidence": "medium-high for critique; underlying X counts are supplied by Grok"
+  },
+  {
+    "id": "hromadske-yandex",
+    "url": "https://hromadske.ua/en/war/272379-yandex-bot-traffic-plunges-after-ukrainian-strikes-on-russian-data-centers-fueling-disinformation-debate",
+    "title": "Yandex bot traffic plunges... fueling disinformation debate",
+    "publisher": "hromadske",
+    "captured_utc": "2026-10-12T16:29:41Z",
+    "type": "secondary synthesis",
+    "status": "archived excerpt",
+    "claims": ["summarizes facilities, 0.4% metric, political claims, and caveat that Cloudflare data does not establish causation"],
+    "confidence": "medium-high"
+  }
+]
